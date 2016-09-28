@@ -1,0 +1,87 @@
+      html,
+          body {
+              margin: 0;
+              padding: 0;
+          }
+          
+          * {
+              box-sizing: border-box;
+          }
+          
+          .container {
+              background-color: #5BA3D6;
+              width: 990px;
+
+          }
+          
+          .left {
+              width: 32%;
+              display: inline-block;
+              color: white;
+              font-family: "Helvetica";
+              padding: 10px;
+          }
+          
+          .center {
+              width: 32%;
+              display: inline-block;
+              color: white;
+              font-family: "Helvetica";
+              padding: 10px;
+          }
+          
+          .right {
+              width: 32%;
+              display: inline-block;
+              color: white;
+              font-family: "Helvetica";
+              padding: 10px;
+          }
+          
+          label {
+              width: 100%;
+              display: inline-block;
+              font-size: 12px;
+          }
+          
+          input {
+              width: 100%;
+              background-color: transparent;
+              border: 1.5px solid white;
+          }
+          
+          option {
+              width: 100%;
+              background-color: transparent;
+              border: 1.5px solid white;
+          }
+          
+          textarea {
+              width: 100%;
+              background-color: transparent;
+              border: 1.5px solid white;
+          }
+          
+          select {
+              background-color: transparent;
+              color: white;
+          }
+          
+          @media screen and (max-width: 700px) {
+              .container {
+                  display: block;
+                  width: 100%;
+
+              }
+              .left{
+              	width: 100%;
+              }
+              .center{
+              	width: 100%;
+              }
+              .right{
+              	width:100%;
+              }
+          }
+          
+         
